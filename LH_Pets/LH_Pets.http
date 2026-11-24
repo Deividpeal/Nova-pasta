@@ -1,0 +1,11 @@
+@LH_Pets_HostAddress = http://localhost:5070
+
+GET {{LH_Pets_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{LH_Pets_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
